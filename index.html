@@ -5,16 +5,38 @@
     <head>
 
         <meta charset="utf-8">
-        <title>The Worst Website</title>
+
+        <title>How to Internet</title>
+
         <link rel="stylesheet" href="./styles/main.css">
-        <link rel="stylesheet" href="./styles/mitchell.css">
+        <style>
+            /* This is the CSS for the scrollbar - didn't work when I put it in the stylesheet for some reason. Appears to work here, and this is a gppd example of what not to do... so I'm rolling with it. */
+            ::-webkit-scrollbar {
+              width: 20px;
+            }
+            
+            ::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 5px grey; 
+              border-radius: 10px;
+            }
+             
+            ::-webkit-scrollbar-thumb {
+              background: red; 
+              border-radius: 10px;
+            }
+            
+            ::-webkit-scrollbar-thumb:hover {
+              background: #b30000; 
+            }
+            </style>
     </head>
 
     <body>
         
         <!-- This is the container for the header -->
         <header class="header">
-            <h1 class="header_title">This is The Worst Website.</h1>
+            <h1 class="header_title">Learn to Website Here</h1>
+            <h2 class="header_subtitle">Everything U Need 2 Know About Web Design</h2>
         </header>
 
         <!-- This is the container for the main content of the site - each of our sections are within this container -->
@@ -25,6 +47,20 @@
             </div>
 
             <div class="chelsea_section">
+                <h3>HTML 4 Dummies
+                </h3>
+                <p class=""></p>>What is HTML?</p>
+                <ul class="basic__info">
+                    <li>HTML is Hyper Text Markup Language.</li>
+                    <li>describes layout of web page.</li>
+                    <li>has different sections and boxes.</li>
+                    <li>HTML starts with a "<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--OdG3vZub--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/4jsxjn9leaobp7eu3daj.png" width=100px height: 50px/>
+                        " with a header and footer between the body tags.</li>
+                    <br>
+                    <li>Here are some links that could be useful! <a href="https://www.w3schools.com/html/default.asp">link is here</a>
+
+
+                </ul>
 
             </div>
             <!-- This section is teaching about CSS-->
@@ -62,7 +98,16 @@
             </div>
 
             <div class="zach_section">
-                
+
+                <h3 class="zach_section_heading">How to Use CSS Flexible Box Layout or Flexbox or The Internet is Boxes</h3>
+                <article class="zach_article">You should put everything in your site into a box. This is important because everyone uses the internet on phones now.</article>
+                <article class="zach_hover">Hover your cursor here.</article>
+                <article class="zach_hide">Huzzah! You can make random text appear on hover for no reason if you'd like.</article>
+                <article class="zach_article">How to: just create lots of "divs" in your HTML file. Be sure to name them all "div," and don't add any classes or make them unique in any way or explain in any way what any of the divs are for. Then go into your CSS and add lots of :required tags for styling. </article>
+                <article class="zach_article">Also don't worry about resizing any images you want to use or trying to make them display properly across different screen sizes and resolutions. Just throw those sweet pics right in there and don't give it a second thought.</article>
+                <article class="zach_article">It's important that you do not use ordered or unordered lists, even when you're giving a list of instructions like these instructions here. Some people say that using lists makes information easier to read. People who say that are human monsters, though. </article>
+                <article class="zach_glow_text">Never miss an opportunity to make your text glow - that's the mark of a true web development professional.</article>
+
             </div>
 
         </main>

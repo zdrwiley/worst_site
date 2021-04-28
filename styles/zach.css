@@ -1,0 +1,58 @@
+.zach_section {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: red;
+    border: solid 2px yellow;
+    background-image: url("https://media.self.com/photos/5ebecee2cc75d6dd11f5a3eb/3:4/w_2445,h_3260,c_limit/boxes-floating.jpg");
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.zach_article {
+    border: dotted 1px yellow;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.zach_glow_text {
+    border: 5rem;
+    padding: 5rem;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .zach_hide {
+      display: none;
+      padding-left: 2rem;
+      margin-left: 2rem;
+  }
+
+  .zach_hover {
+    border: dotted 1px yellow;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  .zach_hover:hover + .zach_hide {
+    display: block;
+    color: white;
+    font-size: 20px;
+  }

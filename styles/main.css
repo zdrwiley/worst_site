@@ -1,0 +1,7 @@
+@import './styles/zach.css';
+
+.header {
+    text-align: center;
+    border-bottom: solid 2px yellow;
+    color: white;
+} 
