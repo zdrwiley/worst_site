@@ -1,0 +1,15 @@
+@import './styles/zach.css';
+@import './styles/colin.css';
+@import './images/';
+
+body{
+    background-image: url('./images/hackerGif.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    border-bottom: solid 2px yellow;
+    color: white;
+} 
