@@ -1,0 +1,8 @@
+@import './styles/colin.css';
+@import './images/';
+
+body{
+    background-image: url('./images/hackerGif.gif');
+    background-position: center;
+    background-size: cover;
+}
