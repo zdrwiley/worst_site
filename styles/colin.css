@@ -1,0 +1,50 @@
+body{
+    background-image: url('./images/hackerGif.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+.colin_section {
+    display: flex;
+    /* background-color: blueviolet; */
+    height: 600px;
+    width: 1200px;
+}
+
+    .github {    
+        background-image: url('./images/wave.gif');
+        display: flex;
+        background-color: rgb(137, 43, 226);
+    }
+
+    .github_header {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .github_article-overview {
+        display: flex;
+        background-image: url('./images/wave2.gif');
+        background-position: center;
+        justify-content: center;
+        padding: 10px;
+        transform:rotate(30);
+    }
+
+
+    .github_article {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+.github_aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: chartreuse;
+    position: sticky;
+    height: 200px;
+    width: 250px;
+}
