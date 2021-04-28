@@ -1,4 +1,8 @@
-@import './styles/zach.css';
+@import url('zach.css');
+@import url('chelsea.css');
+@import url('colin.css');
+@import url('mitchell.css');
+
 
 .header {
     text-align: center;
