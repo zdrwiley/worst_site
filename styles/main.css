@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url('./images/hackerGif.gif');
+    /* background-image: url('./images/hackerGif.gif'); */
     background-position: center;
     background-size: cover;
 }

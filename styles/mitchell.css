@@ -1,5 +1,8 @@
 .mitchell_section {
-    
+    color: white;
+    background-color: darkslateblue;
+    padding: 40px;
+  
 }
 .ml_disclaimer_title {
     text-align: center;
