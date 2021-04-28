@@ -1,15 +1,16 @@
-@import './styles/zach.css';
-@import './styles/colin.css';
-@import './images/';
+@import url('zach.css');
+@import url('chelsea.css');
+@import url('colin.css');
+@import url('mitchell.css');
+
+.header {
+    text-align: center;
+    border-bottom: solid 2px yellow;
+    color: white;
+}
 
 body{
     background-image: url('./images/hackerGif.gif');
     background-position: center;
     background-size: cover;
 }
-
-.header {
-    text-align: center;
-    border-bottom: solid 2px yellow;
-    color: white;
-} 
