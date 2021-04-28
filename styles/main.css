@@ -1,9 +1,18 @@
-@import './styles/chelsea.css';
-@import './styles/zach.css';
+@import url('zach.css');
+@import url('chelsea.css');
+@import url('colin.css');
+@import url('mitchell.css');
 
 .header {
     text-align: center;
     border-bottom: solid 2px yellow;
     color: white;
 } 
+
+
+body{
+    background-image: url('./images/hackerGif.gif');
+    background-position: center;
+    background-size: cover;
+}
 
