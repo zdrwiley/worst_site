@@ -1,7 +1,8 @@
 .mitchell_section {
     color: white;
     background-color: darkslateblue;
-    padding: 40px;
+    margin: 40px;
+    padding: 20px;
   
 }
 .ml_disclaimer_title {
@@ -72,6 +73,7 @@
     padding: 15px;
 }
 .ml_css_syntax_img {
+  justify-content: space-evenly;
 
 }
 .ml_syntax_img {
@@ -153,4 +155,38 @@
     opacity: 0;
   }
 }
-
+.ml_borders {
+  border: black solid;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.ml_solid {
+  border:springgreen solid;
+  padding: 25px;
+}
+.ml_dashed {
+  border: dashed pink;
+  padding: 25px;
+}
+.ml_grooved {
+  border: groove rgb(243, 226, 70);
+  padding: 25px;
+}
+.ml_dotted {
+  border: tomato dotted;
+  animation: blink .5s step-end infinite alternate;
+  padding: 25px;
+}
+@keyframes blink { 
+  50% { border-color: #ff0000; } 
+}
+.ml_backgrounds {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.ml_background {
+  max-width: 200px;
+  max-height: 200px;
+}
