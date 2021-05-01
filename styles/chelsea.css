@@ -10,25 +10,29 @@
 }
 
 li {
-    color:crimson;
-    font-size: 20px;
+    color:navy;
+    font-size: 27px;
     
 }
 
 .section_title {
-    color:seagreen;
+    color:chartreuse;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:xx-large;
+    font-size: xx-large;
 
 }
 .html {
-    color:royalblue
+    color:royalblue;
+    font-size: 20px;
 }
 
 .flex-container {
 
     display: fliex;
-    justify-content: right;
+    text-align: right;
+    justify-content: space-around;
+    padding: 20px;
+   
 
 
 }
