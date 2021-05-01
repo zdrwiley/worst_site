@@ -1,9 +1,3 @@
-body{
-    background-image: url('./images/hackerGif.gif');
-    background-position: center;
-    background-size: cover;
-}
-
 .colin_section {
     display: flex;
     /* background-color: blueviolet; */
